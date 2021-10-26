@@ -1,0 +1,65 @@
+<html> <!--html tag, starts and ends document-->
+    <head>
+        <title>This shows up in the tab.</title> <!-- title -->
+        <style>
+            .bold {
+                font-weight: bold;
+            }
+
+            .italics{
+                font-style: italic;
+            }
+
+            .text-large{
+                font-size: xx-large;
+            }
+
+            .text-64{
+                font-size: 64;
+            }
+
+            /* p {
+                font-weight: intial !important; <!-!important overrides other code-->
+            } */
+
+        </style>
+    </head>
+    <body>
+        <h1>Header 1!</h1> <!-- headers -->
+        <h2>Header 2!</h2>
+        <h3>Header 3!</h3>
+        <h4>Header 4!</h4>
+        <h5>Header 5!</h5>
+        <h6>Header 6!</h6>
+        <p>This is a paragraph.</p>
+        <!-- This is a comment! -->
+        <p style="display: none;">This paragraph is hidden.</p>
+        <a href="https://lmgtfy.app/?q=HTML" target="_blank">Google</a>
+        This is the content of the page.
+
+        <div style ="border: 1px solid orange; padding: 1rem;">
+            <p style="border: 1px solid purple;">This is a paragraph.</p>
+        </div> <!-- container for code-->
+
+        <br /> <!-- -->
+        <br /> <!-- line break -->
+        <hr /> <!-- horizontal line -->
+        <br />
+        <br />
+
+
+        <p>This is <span style="font-weight: bold;">bold</span>.  Don't you like bold text?</p>
+        <p>This is <span class="bold">bold</span> also.</p>
+
+        <p class="text-large">This is <span class="italics">italics</span>.</p>
+        <p class="text-64">This is <span class="italics">64-<span class="bold">point</span> font</span> sized.</p>
+
+        <p>This is both <span class="bold italics">bold and italic</span>.  Nice!</p>
+        <p class="bold italics">This text is all bold and italic.</p>
+
+        <p style="font-weight: bold; color: teal">Is this going to be bold or not?</p>
+
+        <img src="https://via.placeholder.com/400x500/0000FF/808080" width="200" height="250" /> <!-- self-closing tag, no closing tag at the end-->
+        <!--match download size to rendering size, can affect bandwidth cost-->
+    </body>
+</html>
